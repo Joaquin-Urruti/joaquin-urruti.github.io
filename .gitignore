@@ -1,0 +1,11 @@
+__marimo__/
+_extensions/
+_site/
+.history/
+.quarto
+_quarto.yml
+.venv/
+.DS_Store
+.vscode/
+_outputs/
+.env
