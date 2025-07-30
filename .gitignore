@@ -9,3 +9,4 @@ _quarto.yml
 .vscode/
 _outputs/
 .env
+/.quarto/
