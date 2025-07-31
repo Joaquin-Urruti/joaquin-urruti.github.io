@@ -2,7 +2,7 @@
 title: "Portfolio"
 ---
 
-I've done this!
+I've done this stuff!
 
 - [Hydrologic analysis](hydrology.qmd)
 - [GIS projects](gis.qmd)
