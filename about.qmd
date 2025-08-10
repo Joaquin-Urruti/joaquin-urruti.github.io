@@ -2,11 +2,13 @@
 title: "About me"
 ---
 
-I’m Joaquín Urruti, currently Head of Innovation & Development at Espartina S.A., an Argentine agricultural production company. I bring a solid background in GIS, Python programming, Google Earth Engine, and PostGIS-backed database development.
+<div style="text-align: justify;">
+I’m Joaquín Urruti, currently Head of Innovation & Development at Espartina S.A., an argentinian agricultural production company. I bring a solid background in GIS, Python programming, Google Earth Engine, and PostGIS-backed database development.
 
 Previously, I worked as a Senior Data Analyst for Major Accounts at S4 Agtech, a company based in Buenos Aires focused on parametric drought insurance solutions for agriculture. In this role, I contributed to data analytics workflows supporting S4’s vegetation-index-based triggers and parametric insurance products in collaboration with insurers like Munich Re and Mapfre across Argentina, Uruguay, and Brazil.
+</div>
 
-**Key expertise includes:**
+### Key expertise includes:
 
 -   Field valuation and spatial risk modelling: Using satellite-derived indices.
 
@@ -16,7 +18,7 @@ Previously, I worked as a Senior Data Analyst for Major Accounts at S4 Agtech, a
 
 -   Musical pursuits: Jazz musician, enriching creativity and analytical mindset.
 
-**Technical competencies:**
+### Technical competencies:
 
 -   GIS & spatial data science workflows
 
@@ -28,4 +30,7 @@ Previously, I worked as a Senior Data Analyst for Major Accounts at S4 Agtech, a
 
 -   Innovation strategy and AI‑driven process optimization
 
+    
+<div style="text-align: justify;">
 I work at the intersection of agriculture and technology—leveraging data-driven tools to deliver sustainable, innovation-led efficiency across production systems. My approach combines agricultural domain knowledge, technical rigor, and creative thinking informed by personal interests like music and emerging digital assets.
+</div>

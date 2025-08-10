@@ -1,0 +1,10 @@
+---
+title: "Prjoect 2"
+---
+
+I've done this stuff!
+
+- [Hydrologic analysis](project_1.qmd)
+- [GIS projects](project_2.qmd)
+- [R projects](project_3.qmd)
+- [Python projects](project_4.qmd)

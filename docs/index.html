@@ -66,8 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script type="module" src="https://cdn.jsdelivr.net/npm/@marimo-team/islands@0.14.15/dist/main.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/@marimo-team/islands@0.14.15/dist/style.css" rel="stylesheet" crossorigin="anonymous">
+<script type="module" src="https://cdn.jsdelivr.net/npm/@marimo-team/islands@0.14.16/dist/main.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/@marimo-team/islands@0.14.16/dist/style.css" rel="stylesheet" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&amp;family=Lora&amp;family=PT+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
@@ -85,6 +85,9 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Joaquín Urruti</span>
     </a>
@@ -103,13 +106,42 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./portfolio.html"> 
-<span class="menu-text">Portfolio</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfolio" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Portfolio</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-portfolio">    
+        <li>
+    <a class="dropdown-item" href="./project_1.html">
+ <span class="dropdown-text">Project 1</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./project_2.html">
+ <span class="dropdown-text">Prjoect 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./project_3.html">
+ <span class="dropdown-text">Project 3</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./project_4.html">
+ <span class="dropdown-text">Project 4</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact me</span></a>
+<span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Joaquin-Urruti" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/jurruti/" target="_blank"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -122,47 +154,54 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#ive-done-this-stuff" id="toc-ive-done-this-stuff" class="nav-link active" data-scroll-target="#ive-done-this-stuff">I’ve done this stuff!</a></li>
+  <li><a href="#marimo-test" id="toc-marimo-test" class="nav-link" data-scroll-target="#marimo-test">Marimo Test</a></li>
+  <li><a href="#segundo-slide" id="toc-segundo-slide" class="nav-link" data-scroll-target="#segundo-slide">Segundo slide</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Joaquín Urruti</h1>
-<p class="subtitle lead">Agricultural Engineer, MSc. in Open Source GIS Software</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<section id="ive-done-this-stuff" class="level2">
+<h2 class="anchored" data-anchor-id="ive-done-this-stuff">I’ve done this stuff!</h2>
+<ul>
+<li><a href="./project_1.html">Hydrologic analysis</a></li>
+<li><a href="./project_2.html">GIS projects</a></li>
+<li><a href="./project_3.html">R projects</a></li>
+<li><a href="./project_4.html">Python projects</a></li>
+</ul>
+<p><br></p>
+</section>
+<section id="marimo-test" class="level2">
+<h2 class="anchored" data-anchor-id="marimo-test">Marimo Test</h2>
 <marimo-island data-app-id="main" data-cell-id="Hbol" data-reactive="true">
     <marimo-cell-output>
-    <marimo-ui-element object-id="Hbol-0" random-id="3aa4920d-86b2-0be0-d5cd-049094c10dca"><marimo-slider data-initial-value="1" data-label="&quot;<span class=\&quot;markdown prose dark:prose-invert\&quot;><span class=\&quot;paragraph\&quot;>Look, a slider!</span></span>&quot;" data-start="1" data-stop="10" data-step="1" data-steps="[]" data-debounce="false" data-disabled="false" data-orientation="&quot;horizontal&quot;" data-show-value="false" data-include-input="false" data-full-width="false"></marimo-slider></marimo-ui-element>
+    <marimo-ui-element object-id="Hbol-0" random-id="726f2615-725d-9b8d-1462-d0e62fd69fe8"><marimo-slider data-initial-value="1" data-label="&quot;<span class=\&quot;markdown prose dark:prose-invert\&quot;><div class=\&quot;marimo-output\&quot;>\&quot;Look, a slider!\&quot;</div></span>&quot;" data-start="1" data-stop="20" data-step="1" data-steps="[]" data-debounce="false" data-disabled="false" data-orientation="&quot;horizontal&quot;" data-show-value="false" data-include-input="false" data-full-width="false"></marimo-slider></marimo-ui-element>
     </marimo-cell-output>
-    <marimo-cell-code hidden="">import%20marimo%20as%20mo%0Aslider%20%3D%20mo.ui.slider(1%2C%2010%2C%201%2C%20label%3D%22Look%2C%20a%20slider!%22)%0Aslider</marimo-cell-code>
+    <marimo-cell-code hidden="">import%20marimo%20as%20mo%0Aslider_text%20%3D%20f'%3Cdiv%20class%3D%22marimo-output%22%3E%22Look%2C%20a%20slider!%22%3C%2Fdiv%3E'%0Aslider%20%3D%20mo.ui.slider(1%2C%2020%2C%201%2C%20label%3Dslider_text)%0Aslider</marimo-cell-code>
 </marimo-island>
 <marimo-island data-app-id="main" data-cell-id="MJUe" data-reactive="true">
     <marimo-cell-output>
-    <span class="markdown prose dark:prose-invert"><span class="paragraph">NaN Batman!</span></span>
+    <span class="markdown prose dark:prose-invert"><div class="marimo-output">NaN Batman!</div></span>
     </marimo-cell-output>
-    <marimo-cell-code hidden="">%23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0A%23%7C%20echo%3A%20false%0Amo.md(%22NaN%22%20*%20slider.value%20%2B%20%22%20Batman!%22)</marimo-cell-code>
+    <marimo-cell-code hidden="">%23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0A%23%7C%20echo%3A%20false%0Amo.md(f'%3Cdiv%20class%3D%22marimo-output%22%3E%7B(%22NaN%22%20*%20slider.value)%20%2B%20%22%20Batman!%22%7D%3C%2Fdiv%3E')</marimo-cell-code>
 </marimo-island>
+</section>
+<section id="segundo-slide" class="level2">
+<h2 class="anchored" data-anchor-id="segundo-slide">Segundo slide</h2>
+<p>Hola como estas?</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

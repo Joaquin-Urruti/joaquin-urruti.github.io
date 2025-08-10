@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Joaquín Urruti",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n    \n    \n    \n    import%20marimo%20as%20mo%0Aslider%20%3D%20mo.ui.slider(1%2C%2010%2C%201%2C%20label%3D%22Look%2C%20a%20slider!%22)%0Aslider\n\n\n    \n    NaN Batman!\n    \n    %23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0A%23%7C%20echo%3A%20false%0Amo.md(%22NaN%22%20*%20slider.value%20%2B%20%22%20Batman!%22)"
+    "text": "Hydrologic analysis\nGIS projects\nR projects\nPython projects"
   },
   {
     "objectID": "contact.html",
@@ -25,6 +25,62 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "I’m Joaquín Urruti, currently Head of Innovation & Development at Espartina S.A., an Argentine agricultural production company. I bring a solid background in GIS, Python programming, Google Earth Engine, and PostGIS-backed database development.\nPreviously, I worked as a Senior Data Analyst for Major Accounts at S4 Agtech, a company based in Buenos Aires focused on parametric drought insurance solutions for agriculture. In this role, I contributed to data analytics workflows supporting S4’s vegetation-index-based triggers and parametric insurance products in collaboration with insurers like Munich Re and Mapfre across Argentina, Uruguay, and Brazil.\nKey expertise includes:\n\nField valuation and spatial risk modelling: Using satellite-derived indices.\nParametric drought insurance analytics: Support and trigger monitoring.\nCryptocurrencies and blockchain: Broad knowledge of applications in fintech and ag-tech.\nMusical pursuits: Jazz musician, enriching creativity and analytical mindset.\n\nTechnical competencies:\n\nGIS & spatial data science workflows\nPython scripting, automation, and remote sensing\nGoogle Earth Engine for scalable environmental processing\nPostgreSQL/PostGIS for robust data architecture\nInnovation strategy and AI‑driven process optimization\n\nI work at the intersection of agriculture and technology—leveraging data-driven tools to deliver sustainable, innovation-led efficiency across production systems. My approach combines agricultural domain knowledge, technical rigor, and creative thinking informed by personal interests like music and emerging digital assets."
+    "text": "I’m Joaquín Urruti, currently Head of Innovation & Development at Espartina S.A., an argentinian agricultural production company. I bring a solid background in GIS, Python programming, Google Earth Engine, and PostGIS-backed database development.\nPreviously, I worked as a Senior Data Analyst for Major Accounts at S4 Agtech, a company based in Buenos Aires focused on parametric drought insurance solutions for agriculture. In this role, I contributed to data analytics workflows supporting S4’s vegetation-index-based triggers and parametric insurance products in collaboration with insurers like Munich Re and Mapfre across Argentina, Uruguay, and Brazil.\n\n\nKey expertise includes:\n\nField valuation and spatial risk modelling: Using satellite-derived indices.\nParametric drought insurance analytics: Support and trigger monitoring.\nCryptocurrencies and blockchain: Broad knowledge of applications in fintech and ag-tech.\nMusical pursuits: Jazz musician, enriching creativity and analytical mindset.\n\n\n\nTechnical competencies:\n\nGIS & spatial data science workflows\nPython scripting, automation, and remote sensing\nGoogle Earth Engine for scalable environmental processing\nPostgreSQL/PostGIS for robust data architecture\nInnovation strategy and AI‑driven process optimization\n\n\nI work at the intersection of agriculture and technology—leveraging data-driven tools to deliver sustainable, innovation-led efficiency across production systems. My approach combines agricultural domain knowledge, technical rigor, and creative thinking informed by personal interests like music and emerging digital assets."
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Joaquín Urruti",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎\nHere’s one with multiple blocks.\nSubsequent paragraphs are indented to show that they belong to the previous footnote.\n{ some.code }\nThe whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like multi-paragraph list items.↩︎"
+  },
+  {
+    "objectID": "index.html#marimo-test",
+    "href": "index.html#marimo-test",
+    "title": "Joaquín Urruti",
+    "section": "Marimo Test",
+    "text": "Marimo Test\n\n    \n    \n    \n    import%20marimo%20as%20mo%0Aslider_text%20%3D%20f'%3Cdiv%20class%3D%22marimo-output%22%3E%22Look%2C%20a%20slider!%22%3C%2Fdiv%3E'%0Aslider%20%3D%20mo.ui.slider(1%2C%2020%2C%201%2C%20label%3Dslider_text)%0Aslider\n\n\n    \n    NaN Batman!\n    \n    %23%20No%20echo%20here%20means%20we%20do%20not%20show%20the%20code%0A%23%7C%20echo%3A%20false%0Amo.md(f'%3Cdiv%20class%3D%22marimo-output%22%3E%7B(%22NaN%22%20*%20slider.value)%20%2B%20%22%20Batman!%22%7D%3C%2Fdiv%3E')"
+  },
+  {
+    "objectID": "index.html#segundo-slide",
+    "href": "index.html#segundo-slide",
+    "title": "Joaquín Urruti",
+    "section": "Segundo slide",
+    "text": "Segundo slide\nHola como estas?"
+  },
+  {
+    "objectID": "project_3.html",
+    "href": "project_3.html",
+    "title": "Project 3",
+    "section": "",
+    "text": "I’ve done this stuff!\n\nHydrologic analysis\nGIS projects\nR projects\nPython projects"
+  },
+  {
+    "objectID": "project_1.html",
+    "href": "project_1.html",
+    "title": "Project 1",
+    "section": "",
+    "text": "I’ve done this stuff!\n\nHydrologic analysis\nGIS projects\nR projects\nPython projects"
+  },
+  {
+    "objectID": "project_2.html",
+    "href": "project_2.html",
+    "title": "Prjoect 2",
+    "section": "",
+    "text": "I’ve done this stuff!\n\nHydrologic analysis\nGIS projects\nR projects\nPython projects"
+  },
+  {
+    "objectID": "project_4.html",
+    "href": "project_4.html",
+    "title": "Project 4",
+    "section": "",
+    "text": "I’ve done this stuff!\n\nHydrologic analysis\nGIS projects\nR projects\nPython projects"
+  },
+  {
+    "objectID": "index.html#ive-done-this-stuff",
+    "href": "index.html#ive-done-this-stuff",
+    "title": "Joaquín Urruti",
+    "section": "",
+    "text": "Hydrologic analysis\nGIS projects\nR projects\nPython projects"
   }
 ]

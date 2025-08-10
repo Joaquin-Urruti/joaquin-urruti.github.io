@@ -10,3 +10,4 @@ _quarto.yml
 _outputs/
 .env
 /.quarto/
+data/
